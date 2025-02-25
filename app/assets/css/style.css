@@ -1,0 +1,129 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;700&display=swap');
+
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Permanent Marker", serif;
+}
+
+.logo {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.content img {
+  width: 50%;
+  flex: 1;
+  height: auto;
+}
+
+.content p {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
+#slider {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#slider-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100%;
+  /* width: 100%; */
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card > div {
+  flex: 1;
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.card p, h2 {
+  font-size: 1.25rem;
+  font-style: italic;
+  text-align: center;
+  margin: 0 40px; 
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  border-top: 1px solid #555;
+}
+
+#rzo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
